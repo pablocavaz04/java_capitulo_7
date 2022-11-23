@@ -16,5 +16,6 @@ public class Cap7Ejercicio03 {
         for(int j=0;j<10;j++){
             System.out.println(nums[j]);
         }
+        sc.close();
     }
 }
