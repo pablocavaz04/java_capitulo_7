@@ -28,7 +28,7 @@ public class Cap7Ejercicio05 {
         System.out.println();
 
         for(int i=0;i<10;i++){
-
+            //Ahora comprobamos cuando el numero sea maximo o minimo
             if(maximo==numeros[i]){
                 System.out.println(numeros[i]+" maximo ");
             }
