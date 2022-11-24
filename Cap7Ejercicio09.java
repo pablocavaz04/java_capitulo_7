@@ -1,5 +1,5 @@
 /*
- * Author: Pablo Camino Vázquez
+ * 9) Author: Pablo Camino Vázquez
  * Realiza un programa que pida 8 números enteros y que luego muestre esos
 números junto con la palabra “par” o “impar” según proceda.
  */
