@@ -8,9 +8,43 @@ necesario.
  */
 public class Cap7Ejercicio10 {
     public static void main(String[] args) {
-        int [] num = new int[20];
-        for(int i=0;i<20;i++){
-            num[i]=(int)(Math.random()*101);
+    int[] original = new int[20];
+    int[] par = new int[20];
+    int[] impar = new int[20];
+
+    int i;
+
+    int pares = 0;
+    int impares = 0;
+
+    for (i = 0; i < 20; i++) {
+        original[i] = (int)(Math.random() * 101);
+        if (original[i] % 2 == 0) {
+            par[pares++] = original[i];
+        } else {
+            impar[impares++] = original[i];
         }
     }
+
+    System.out.println("Array original:");
+    for (i = 0; i < 20; i++) {
+        System.out.print(original[i] + " ");
+    }
+    System.out.println();
+
+    for (i = 0; i < pares; i++) {
+        original[i] = par[i];
+    }
+
+    for (i = pares; i < 20; i++) {
+        original[i] = impar[i - pares];
+    }
+
+    System.out.println("Array con los pares al principio:");
+    for (i = 0; i < 20; i++) {
+        System.out.print(original[i] + " ");
+    }
+
+    }   
 }
+
