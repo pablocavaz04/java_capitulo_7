@@ -58,11 +58,6 @@ public class Cap7Ejercicio11 {
         for(int i=0;i<10;i++){
         System.out.print(numeros[i]+" ");
     }
-
-
-
-
-
-            
+    sc.close();        
     }
 }
