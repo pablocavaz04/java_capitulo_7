@@ -1,6 +1,6 @@
 /**
  * Author: Pablo Camino Vázquez
- * 24 Modifica el programa anterior de tal forma que los números que se introducen
+ * 24) Modifica el programa anterior de tal forma que los números que se introducen
  * en el array se generen de forma aleatoria (valores entre 100 y 999)
  */
 
